@@ -1,19 +1,17 @@
 [tool.poetry]
 name = "aoc"
-version = "0.1.0"
+version = "0.2.0"
 description = "Advent of Code"
 authors = ["Sven Axelsson <himself@svenax.net>"]
 
 [tool.poetry.dependencies]
-python = ">=3.9,<3.11"
-advent-of-code-data = "^1.1.1"
-colorama = "^0.4.4"
-numpy = "^1.21.4"
-pre-commit = "^2.16.0"
+python = "3.11.6"
+advent-of-code-data = "^2.0.1"
+numpy = "^1.26.2"
+regex = "^2023.10.3"
 
-[tool.poetry.dev-dependencies]
+[tool.poetry.group.dev.dependencies]
 pytest = "^6.2.5"
-ufmt = "^1.3.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
